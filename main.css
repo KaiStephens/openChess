@@ -1,0 +1,113 @@
+/* Basic reset */
+
+h1 {
+	border: 5px solid;
+	position: absolute;
+	top: 5%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	padding: 10px;
+}
+
+.mainScreenButton {
+	position: relative;
+	background-color: white;
+	color: black;
+	border: 2px solid #555555;
+  	padding: 16px 32px;
+	text-align: center;
+  	text-decoration: none;
+  	display: inline-block;
+  	font-size: 16px;
+  	margin: 4px 2px;
+  	transition-duration: 0.4s;
+  	cursor: pointer;
+
+}
+
+.mainScreenButton:hover {
+	background-color: #555555;
+	color: white;
+}
+
+.mainScreenButtonDiv {
+        position: absolute;
+	top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+}
+
+.ytVid {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+	display: none;
+}
+
+
+#videoText {
+        position: absolute;
+        top: 20%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        display: none;
+}
+
+.proceedButtonYT {
+        position: relative;
+        background-color: white;
+        color: black;
+        border: 2px solid #555555;
+        padding: 16px 32px;
+        text-align: center;
+        text-decoration: none;
+        disp
+
+lay: none;
+        font-size: 16px;
+        margin: 4px 2px;
+        transition-duration: 0.4s;
+        cursor: pointer;
+}
+
+.proceedButtonYT:hover {
+        background-color: #555555;
+        color: white;
+}
+
+.backButtonYT {
+        position: relative;
+        background-color: white;
+        color: black;
+        border: 2px solid #555555;
+        padding: 16px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: none;
+        font-size: 16px;
+        margin: 4px 2px;
+        transition-duration: 0.4s;
+        cursor: pointer;
+}
+
+.backButtonYT:hover {
+        background-color: #555555;
+        color: white;
+}
+
+.proceedBackYT {
+	position: absolute;
+        top: 80%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+}
+
+
+#myBoard {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+	display: none;
+}
